@@ -32,6 +32,8 @@ try {
 
 
 	std::map<std::string,int>msi;
+	
+	
 	msi["a"]=2;
 	msi["b"]=18;
 	msi["sze"]=67;
