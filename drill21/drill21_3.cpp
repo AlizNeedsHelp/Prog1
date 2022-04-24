@@ -28,7 +28,7 @@ void print(const C& c, char sep = '\n'){
 int main()
 try { 
 
-	const std::string iname{ "szamok.txt"};
+	const std::string iname{ "file.txt"};
 	std::ifstream ifs{iname};
 	if (!ifs) throw std::runtime_error("Could not find file:" + iname);
 
